@@ -1,0 +1,16 @@
+{
+    "name": "flexpress/plugin-popular-posts",
+    "description": "FlexPress based plugin",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "require": {
+        "pimple/pimple": "2.0.*",
+        "flexpress/component-plugin": "1.0.*",
+        "flexpress/component-popular-posts": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlexPress\\Plugins\\PopularPosts\\": "src/FlexPress/Plugins/PopularPosts"
+        }
+    }
+}

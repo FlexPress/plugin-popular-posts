@@ -1,0 +1,81 @@
+[
+    {
+        "name": "pimple/pimple",
+        "version": "v2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabpot/Pimple.git",
+            "reference": "f99b3df12991c22463927aa6a18fd9b2212917f2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fabpot/Pimple/zipball/f99b3df12991c22463927aa6a18fd9b2212917f2",
+            "reference": "f99b3df12991c22463927aa6a18fd9b2212917f2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-02-10 08:05:32",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Pimple": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+        "homepage": "http://pimple.sensiolabs.org",
+        "keywords": [
+            "container",
+            "dependency injection"
+        ]
+    },
+    {
+        "name": "flexpress/component-plugin",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FlexPress/component-plugin.git",
+            "reference": "f27fe56c73d1b366eb3e7bb78a27249979d6eafb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FlexPress/component-plugin/zipball/f27fe56c73d1b366eb3e7bb78a27249979d6eafb",
+            "reference": "f27fe56c73d1b366eb3e7bb78a27249979d6eafb",
+            "shasum": ""
+        },
+        "time": "2014-08-26 15:57:54",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FlexPress\\Plugins\\": "src/FlexPress/Plugins/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Base plugin for WordPress plugin creation"
+    }
+]
